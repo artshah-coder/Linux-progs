@@ -159,7 +159,7 @@ int main (int argc, char * argv[])
 					printf("-> Error while reading soft link.");
 				else
 					/* Дописываем содержимое "ссылки" в stdout
-			 		* так, как это делает команда ls -la*/
+			 		* так, как это делает команда ls -la */
 					printf("-> %s", buf);
 			}
 		}
